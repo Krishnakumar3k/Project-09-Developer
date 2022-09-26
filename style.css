@@ -1,0 +1,554 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  
+  font-family: 'Poppins', sans-serif;
+  background-color: #ecf0f1;
+
+}
+
+header{
+   
+  background-color: #4416fe;
+  height: 75vh;
+}
+
+
+.nav-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+
+
+.nav-item{
+  color: #fff;
+  margin-right: 1.4rem;
+  font-size: 1rem;
+  
+}
+
+.nav-item-active{
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  padding: .5rem .5rem;
+  color:skyblue;
+  background-color: #ecf0f1;
+
+}
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6rem;
+}
+
+.header-text{
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.header-text h2{
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.header-text p{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.header-image{
+  position: absolute;
+  right: 0;
+  bottom: 6rem;
+}
+
+
+/*companies*/
+
+.companies{
+  padding: 2rem 0 0 8rem;
+}
+
+.company-items{
+  text-decoration: none;
+  color: #000;
+  font-size: 1rem;
+}
+
+
+.company-items:not(:last-child){
+  margin-right: 2.5rem;
+
+}
+
+
+/*API section*/
+
+.api{
+  padding: 0 8rem;
+  margin-top: 5rem;
+
+}
+
+.api-heading{
+  font-size: 2.5rem;
+}
+
+.cards{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+
+.card-head{
+  font-size: 1.5rem;
+}
+
+.card-body{
+  font-size: 1rem;
+}
+
+.card-active{
+  background-color:#fff;
+  border-radius: 10px;
+  padding: .5rem .5rem;
+}
+
+.card-logo{
+  background-color: #4416fe;
+}
+
+.card-head-active{
+  font-size: 1.5rem;  
+  color: #4416fe;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  
+}
+
+
+section.blog-section {
+  margin: 0 8rem;
+  padding: 5rem 0;
+}
+
+.blog-heading{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-heading h1{
+  font-size: 1.8rem;
+}
+
+.blog-cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-card{
+  display: flex;
+  background-color: #fff;
+}
+
+.blog-content{
+  color: #000;
+  font-size: 1rem;
+  margin-bottom: .9rem;
+  padding: 1rem 1rem;
+}
+
+.blog-bottom{
+  padding: 1rem 1rem;
+}
+
+.blog-author{
+  padding: 1rem 0;
+}
+
+
+.faq-section{
+  display: flex;
+  background-color:#ccd5fc;;
+  margin-top: 2rem;
+}
+
+.faq-content h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.faq-content h4{
+  margin-top: 1rem;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.faq-content button{
+  padding: 1rem ;
+  background-color: #4416fe;
+  color: #ecf0f1;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+}
+
+.faq-image{
+  margin-left: 2rem;
+}
+
+
+.download-section{
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: space-between;
+}
+
+.download-content{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.download-email input{
+  background-color: #ccd5fc;
+  padding: .5rem 2.5rem .5rem 2.5rem;
+  border-radius: 10px;
+}
+
+.download-email button{
+  background-color: #4416fe;
+  padding: .5rem 1.5rem .5rem 1.5rem;
+  border-radius: 10px;
+}
+
+
+.footer-section{
+  margin-top: 1rem;
+  background-color: #4416fe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 1.5rem;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .list-items{
+  display: flex;
+  justify-content: space-between;
+  padding-left:  1rem;
+  color: #ecf0f1;
+  margin-top: 1rem;
+  
+}
+
+
+.logos-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  header {
+    background-color:blue;
+    height: 400px;
+  }
+
+  nav {
+    padding: 1px;
+  }
+
+  .nav-item {
+    display:none;
+  }
+
+  .hero-container {
+    margin: 2rem;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .header-text {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .header-text p {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .header-image {
+    width: 420px;
+    position: absolute;
+    right: -1rem;
+    top: 20rem;
+  }
+
+  .companies {
+    margin-left: 1rem;
+    margin-top: 18rem;
+  }
+
+  .companies a {
+    font-family: "Righteous";
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #000;
+  }
+
+  .api {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .api-heading {
+    margin-bottom: 1rem;
+  }
+  .cards {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+
+  .card,
+  .card-active {
+    padding: 2rem 1rem;
+  }
+  .card:hover {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+      rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 8px;
+  }
+  .card-active {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+      rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border-radius: 8px;
+  }
+
+  .card-head-active {
+    color: #4617fe;
+  }
+
+  .card-head,
+  .card-head-active {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .blog-heading {
+    margin-top: 2rem;
+   text-align: center;
+   margin-left: 10rem;
+  }
+
+  .blog-cards {
+    flex-direction: column;
+    margin: auto;
+    gap: 3rem;
+  }
+
+  .blog-card {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 12px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  .blog-image {
+    display: flex;
+    align-items: center;
+  }
+  .blog-image img {
+    border-top-right-radius: 3rem;
+    margin-top: 5px;
+  }
+
+
+  .blog-content h6 {
+    color: #4617fe;
+    font-size: 1rem;
+  }
+
+  
+  .blog-card-bottom-image {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .blog-author {
+    position: absolute;
+    bottom: 6px;
+    right: 3rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #4617fe;
+  }
+
+  .faq-section {
+    padding: 2rem;
+    text-align: center;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #414349a1;
+    color: #fff;
+    height: auto;
+    position: relative;
+  }
+
+  .faq-content h2 {
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .faq-content h4 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  .faq-content :nth-child(3) {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .faq-content button {
+    padding: 1rem 2rem;
+    background-color: #4617fe;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .faq-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq-image img {
+    height: 200px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -20;
+  }
+
+  .download-section {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .download-email form {
+    background: #e9edff;
+    border-radius: 1rem;
+  }
+
+  .download-email input {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    margin: 16px;
+    background: #e9edff;
+    color: #000;
+    
+    border-radius: 10rem;
+  }
+
+  .download-email button {
+    background: #4617fe;
+    color: #fff;
+    
+    padding: 1rem 3rem;
+    border-radius: 10rem;
+    margin: 8px;
+    text-transform: uppercase;
+  }
+
+  .footer-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #4617fe;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list,
+  .logos-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1rem;
+    color: #fff;
+    margin-top: 2rem;
+  }
+
+  .footer-logos {
+    margin-left: 1rem;
+  }
+
+  .logos-list {
+    margin-right: auto;
+  }
+}
