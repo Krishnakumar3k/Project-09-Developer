@@ -1,14 +1,14 @@
 # Project- 09 HTML and CSS
 
-![Badge]()
+![Badge](https://img.shields.io/badge/Project--09-Developer-green)
 
-# [Link of live Project]()
+# [Link of live Project](https://developers-web.netlify.app/)
 
 ![Images](./img/landingpage.jpeg)
 
-# What I learnt here from this project
+# What I learnt here from this project-
 
-- I have very good experience from developing this awosome web project.
+- I have very good experience from developing this awesome web project.
 - I have learnt more about Html and Css in the depth knowledge.
 
 # How many time to take develop this web page.
